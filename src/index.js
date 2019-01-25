@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App.jsx';
 
 const title = 'Demo Application';
 
-ReactDOM.render(
-    <div>{title}</div>,
+ReactDOM.render(    
+    <App />,
     document.getElementById('app')
 );
 
