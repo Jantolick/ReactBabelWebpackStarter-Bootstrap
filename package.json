@@ -1,7 +1,7 @@
 {
-  "name": "Babel-React",
+  "name": "Babel-React-Webpack starter with Bootstrap",
   "version": "1.0.0",
-  "description": "",
+  "description": "Just a personal starter pack for projects using these libraries/etc.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
