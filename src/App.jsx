@@ -12,32 +12,28 @@ import Footer from './Components/Footer.jsx';
     Header just shows some Bootstrap integration.
 */
 
-class App extends React.Component
-{
-    render()
-    {
-        return (
+const App = () => {
+
+    return (
         <div>
-            <Header/>
-            <Content/>
-            <Clock/>
-            <Footer text="Here is an example text prop."/>            
+            <Header />
+            <Content />
+            <Clock />
+            <Footer text="Here is an example text prop." />
         </div>
-        );
-    }
+    );
+
 }
 
-class Content extends React.Component
-{
-    render()
-    {
-        return(
-            <div>
-                <h2>And here is the content.</h2>
-                <p>Something about fish goes here...</p>
-            </div>
-        );
-    }
+const Content = () => {
+
+    return (
+        <div>
+            <h2>And here is the content.</h2>
+            <p>Something about fish goes here...</p>
+        </div>
+    );
+
 }
 
 
