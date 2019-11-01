@@ -11,21 +11,22 @@
   "author": "Joseph Antolick",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.2.2",
-    "@babel/preset-env": "^7.2.3",
-    "@babel/preset-react": "^7.0.0",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
     "babel": "^6.23.0",
-    "babel-loader": "^8.0.5",
+    "babel-loader": "^8.0.6",
     "css-loader": "^3.2.0",
-    "eslint": "^5.12.1",
-    "react-hot-loader": "^4.6.3",
+    "eslint": "^6.6.0",
+    "react-hot-loader": "^4.12.15",
     "style-loader": "^1.0.0",
-    "webpack": "^4.29.0",
-    "webpack-cli": "^3.2.1",
-    "webpack-dev-server": "^3.1.14"
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
   },
   "dependencies": {
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "@babel/polyfill": "^7.6.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
   }
 }
