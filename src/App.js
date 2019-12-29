@@ -1,7 +1,7 @@
 import React from 'react';
-import Clock from './Components/Clock.jsx';
-import Header from './Components/Header.jsx';
-import Footer from './Components/Footer.jsx';
+import Clock from './Components/Clock';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
 
 /*
     This is a demonstration app for starting a React project.
